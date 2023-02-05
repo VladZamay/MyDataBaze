@@ -44,7 +44,7 @@ data class dataArgs(val id: Int, var login: String, var password: String)
 
 fun inputIDorLogin(): Any? {
     do {
-        println("Сначала найдем пользователя. Введите 1 для поиска по id или 2 для поиска по логину пользователя ПЕРЕДЕЛАТЬ ФРАЗУ под общую")
+        println("Сначала найдем пользователя. Введите 1 для поиска по id или 2 для поиска по логину пользователя.")
         when (readln()) {
             "1" -> {
                 println("Введите id пользователя")
